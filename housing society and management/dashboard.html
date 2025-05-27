@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="dark-mode">
+  <div class="background"></div>
+   <header class="site-header">
+    <h1>HOUSING SOCIETY AND MANAGEMENT</h1>
+    <nav>
+      <a href="index.html">Login</a>
+      <a href="register.html">Register</a>
+      <a href="maintenance.html">Maintenance</a>
+      <a href="dashboard.html">Dashboard</a>
+    </nav>
+  </header>
+  <div class="container">
+    <h1>Society Dashboard</h1>
+    <section>
+      <h2>Notice Board</h2>
+      <ul>
+        <li>Meeting on 5th June at 7 PM</li>
+        <li>Water supply shutdown on 30th May</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Submit a Complaint</h2>
+      <textarea placeholder="Type your grievance here..."></textarea>
+      <button>Submit</button>
+    </section>
+    <section>
+      <h2>Upcoming Events</h2>
+      <ul>
+        <li>Yoga Session - 3rd June</li>
+        <li>Cleaning Drive - 10th June</li>
+      </ul>
+    </section>
+    <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

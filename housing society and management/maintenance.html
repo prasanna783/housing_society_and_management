@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maintenance</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="dark-mode">
+  <div class="background"></div>
+  <header class="site-header">
+    <h1>HOUSING SOCIETY AND MANAGEMENT</h1>
+    <nav>
+      <a href="index.html">Login</a>
+      <a href="register.html">Register</a>
+      <a href="maintenance.html">Maintenance</a>
+      <a href="dashboard.html">Dashboard</a>
+    </nav>
+  </header>
+  <div class="container">
+    <h1>Maintenance Payment</h1>
+    <form id="maintenanceForm">
+      <input type="text" placeholder="Flat Number" required />
+      <input type="number" placeholder="Amount (INR)" required />
+      <input type="month" required />
+      <button type="submit">Pay Now</button>
+    </form>
+    <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
